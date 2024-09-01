@@ -168,7 +168,7 @@ a{
 
 @media (max-width: 600px){
     .gallery{
-        display: block;
+        display: inherit;
         margin: auto;
     }
     .gallery figure, img{
