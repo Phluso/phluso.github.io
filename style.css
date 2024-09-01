@@ -167,7 +167,7 @@ a{
 }
 
 @media (max-width: 900px){
-    .gallery figure img{
+    .gallery figure, img{
         width: 200px;
         height: 200px;
     }
