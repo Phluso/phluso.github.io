@@ -167,8 +167,16 @@ a{
 }
 
 @media (max-width: 900px){
+    .gallery{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        justify-content: center;
+        margin: 5px;
+    }
     .gallery figure, img{
         width: 200px;
         height: 200px;
     }
+    
 }
