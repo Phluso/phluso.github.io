@@ -1,8 +1,3 @@
-:root{
-    --imageSize: 300px;
-}
-
-
 body{
     background-color: rgb(30, 29, 39);
     margin: 0px;
@@ -76,9 +71,7 @@ a{
     display: block;
     margin: auto;
 }
-.content section{
-    width: 100%;
-}
+
 .content section h1{
     color: rgb(230, 235, 255);
     text-align: center;
@@ -88,7 +81,7 @@ a{
     width: 1000px;
     max-width: 80%;
     display: block;
-    margin: auto;
+    margin: auto auto auto auto;
 }
 
 
@@ -110,8 +103,6 @@ a{
     background-color: hsl(230, 30%, 8%);
     color: rgb(230, 235, 255);
     padding: 10px;
-    position: relative;
-    top: -10px;
     border-radius: 0 0 5px 5px;
     text-align: center;
 }
@@ -152,6 +143,7 @@ a{
     box-sizing: border-box;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 80%;
 }
 .email-contact input, textarea:focus{
     outline: none;
@@ -183,12 +175,6 @@ a{
 @media (max-width: 1200px){
     .head img{
         height: 150px;
-    }
-
-
-    .gallery{
-        display: inherit;
-        margin: auto;
     }
     .gallery{
         display: grid;
