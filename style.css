@@ -144,6 +144,8 @@ a{
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 50%;
+    display: block;
+    margin: auto;
 }
 .email-contact input, textarea:focus{
     outline: none;
