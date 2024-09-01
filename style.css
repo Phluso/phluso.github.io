@@ -168,7 +168,7 @@ a{
 
 @media (max-width: 900px){
     .gallery{
-        display: inline;
+        display: block;
         margin: auto;
     }
     .gallery figure, img{
