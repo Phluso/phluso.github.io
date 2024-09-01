@@ -165,3 +165,10 @@ a{
     cursor: pointer;
     background-color: darkgray;
 }
+
+@media (max-width: 900px){
+    .gallery figure img{
+        max-width: 200px;
+        max-height: 200px
+    }
+}
