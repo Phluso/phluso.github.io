@@ -167,11 +167,7 @@ a{
     background-color: darkgray;
 }
 
-@media only screen and (max-width: 1200px){
-    .head img{
-        height: 150px;
-    }
-
+@media (max-width: 400px){
     .menu{
         position: relative;
     }
@@ -182,6 +178,14 @@ a{
     .menu li{
         width: fit-content;
     }
+}
+
+@media (max-width: 1200px){
+    .head img{
+        height: 150px;
+    }
+
+
     .gallery{
         display: inherit;
         margin: auto;
@@ -195,6 +199,7 @@ a{
     .gallery figure, img{
         width: 150px;
         height: 150px;
+        margin: 10px;
     }
     
 }
