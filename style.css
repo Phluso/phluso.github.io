@@ -9,7 +9,7 @@ a{
     text-decoration: none;
 }
 
-
+/* estilização do cabeçalho */
 .head{
     background-color: black;
     position: relative;
@@ -32,7 +32,7 @@ a{
     object-fit: cover;
 }
 
-
+/* estilização do menu */
 .menu{
     z-index: 9999999;
     background-color: black;
@@ -62,7 +62,7 @@ a{
     background-color: rgb(58, 58, 66);
 }
 
-
+/* estilização da área de conteúdo principal */
 .content{
     position: relative;
     top: 50px;
@@ -84,7 +84,7 @@ a{
     margin: auto auto auto auto;
 }
 
-
+/* estilização da galeria de imagens */
 .gallery{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -110,7 +110,7 @@ a{
     cursor: pointer;
 }
 
-
+/* estilização do texto e links */
 .text{
     width: 80%;
     max-width: 800px;
@@ -125,7 +125,7 @@ a{
     color: lightblue;
 }
 
-
+/* estilização do formulário de envio de e-mail */
 .email-contact{
     color: white;
     text-align: center;
@@ -157,6 +157,7 @@ a{
     background-color: darkgray;
 }
 
+/* responsividade para dispositivos móveis */
 @media (max-width: 400px){
     .menu{
         position: relative;

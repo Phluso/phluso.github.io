@@ -6,6 +6,7 @@ images.forEach(img => {                    //verifica se houve um clique em algu
     })
 })
 const background = document.getElementById("background");
+//adciona o efeito de parallax na imagem do fundo
 window.addEventListener("scroll", e=>{
     background.style.opacity = 1 - (window.scrollY / 700);
     background.style.objectPosition = `50% ${80 - window.scrollY / 5}%`;
